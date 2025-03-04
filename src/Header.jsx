@@ -22,7 +22,7 @@ const Header = () => {
   return (
     <div>
       <header className="bg-white shadow-md fixed top-0 left-0 w-full z-50 p-4 flex justify-between items-center">
-        <h1 className="text-2xl font-bold text-blue">Packy</h1>
+        <h1 className="text-2xl font-bold text-black">Packy</h1>
         <button
           className="bg-green-100 text-green-700 px-4 py-2 rounded-md hover:bg-green-600 transition duration-300"
           onClick={() => setIsOpen(true)}
